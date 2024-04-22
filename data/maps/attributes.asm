@@ -96,7 +96,8 @@ MACRO connection
 	endc
 ENDM
 
-	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, 0
+	map_attributes NewBarkTown, NEW_BARK_TOWN, $05, SOUTH
+	connection south, PortCity, PORT_CITY, 0 
 
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $05, 0
 
@@ -120,3 +121,6 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $00, 0
 	map_attributes LancesRoom, LANCES_ROOM, $00, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
+
+	map_attributes PortCity, PORT_CITY, $35, NORTH
+	connection north, NewBarkTown, NEW_BARK_TOWN, 0

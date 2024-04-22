@@ -60,3 +60,6 @@ LancesRoom_Blocks:
 
 HallOfFame_Blocks:
 	INCBIN "maps/HallOfFame.blk"
+
+PortCity_Blocks:
+	INCBIN "maps/PortCity.blk"

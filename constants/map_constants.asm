@@ -66,4 +66,8 @@ ENDM
 	map_const HALL_OF_FAME,                                 5,  7 ;  7
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 4
+	newgroup PORT												  ;  5
+	map_const PORT_CITY,									   18, 27 ;  1
+	endgroup
+
+DEF NUM_MAP_GROUPS EQU const_value ; 5

@@ -17,3 +17,7 @@
 ; group 16 (Pokémon League)
 	RGB 21,21,21, 13,13,13 ; morn/day
 	RGB 11,11,19, 07,07,12 ; nite
+
+; group 5 (Port City)
+	RGB 16,23,28, 03,15,21 ; morn/day
+	RGB 08,11,21, 02,08,16 ; nite

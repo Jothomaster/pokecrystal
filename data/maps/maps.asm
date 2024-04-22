@@ -21,6 +21,7 @@ MapGroupPointers::
 	dw MapGroup_BattleTower   ;  2
 	dw MapGroup_NewBark       ;  3
 	dw MapGroup_Indigo        ;  4
+	dw MapGroup_Port
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_CableClub:
@@ -57,3 +58,7 @@ MapGroup_Indigo:
 	map LancesRoom, TILESET_CHAMPIONS_ROOM, INDOOR, LANDMARK_INDIGO_PLATEAU, MUSIC_INDIGO_PLATEAU, TRUE, PALETTE_DAY, FISHGROUP_SHORE
 	map HallOfFame, TILESET_ICE_PATH, INDOOR, LANDMARK_INDIGO_PLATEAU, MUSIC_NEW_BARK_TOWN, TRUE, PALETTE_DAY, FISHGROUP_SHORE
 	assert_table_length NUM_INDIGO_MAPS
+
+MapGroup_Port:
+	table_width MAP_LENGTH, MapGroup_Port
+	map PortCity, TILESET_JOHTO, TOWN, LANDMARK_NEW_BARK_TOWN, MUSIC_BATTLE_TOWER_THEME, FALSE, PALETTE_AUTO, FISHGROUP_SHORE
